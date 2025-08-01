@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:system_settings/system_settings.dart';
+import 'package:system_settings_2/system_settings_2.dart';
 
 void main() => runApp(MyApp());
 

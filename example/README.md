@@ -1,6 +1,6 @@
 # system_settings_example
 
-Demonstrates how to use the system_settings plugin.
+Demonstrates how to use the system_settings_2 plugin.
 
 ## Getting Started
 

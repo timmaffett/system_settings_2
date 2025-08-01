@@ -1,1 +1,1 @@
-rootProject.name = "system_settings"
+rootProject.name = "system_settings_2"

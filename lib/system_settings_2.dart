@@ -3,7 +3,7 @@ import 'dart:async';
 import 'package:flutter/services.dart';
 
 class SystemSettings {
-  static const MethodChannel _channel = const MethodChannel('system_settings');
+  static const MethodChannel _channel = const MethodChannel('system_settings_2');
 
   static Future<void> powerOptions() async {
     return await _channel.invokeMethod('power-options');

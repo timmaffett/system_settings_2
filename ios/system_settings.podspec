@@ -1,17 +1,17 @@
 #
 # To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html.
-# Run `pod lib lint system_settings.podspec' to validate before publishing.
+# Run `pod lib lint system_settings_2.podspec' to validate before publishing.
 #
 Pod::Spec.new do |s|
-  s.name             = 'system_settings'
-  s.version          = '0.0.1'
-  s.summary          = 'A new flutter plugin project.'
+  s.name             = 'system_settings_2'
+  s.version          = '3.0.0'
+  s.summary          = 'Flutter IOS System Settings Access.'
   s.description      = <<-DESC
-A new flutter plugin project.
+System Settings Access Plugin for Flutter.
                        DESC
-  s.homepage         = 'http://example.com'
+  s.homepage         = 'https://github.com/timmaffett/system_settings_2'
   s.license          = { :file => '../LICENSE' }
-  s.author           = { 'Your Company' => 'email@example.com' }
+  s.author           = { 'HiveRight Tech' => 'timmaffett@gmail.com' }
   s.source           = { :path => '.' }
   s.source_files = 'Classes/**/*'
   s.dependency 'Flutter'

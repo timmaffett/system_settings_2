@@ -1,3 +1,9 @@
+## 3.0.0
+
+- Updated to modern 3.x Flutter, moved to new repo/package because of lack
+  of maintainance on original system_settings package
+  Renamed to system_settings_2 for pub.dev
+
 ## 2.1.0
 
 - Open NFC settings on Android (thanks to [tolland](https://github.com/tolland))

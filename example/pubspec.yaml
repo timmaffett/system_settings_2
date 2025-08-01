@@ -1,5 +1,5 @@
 name: system_settings_example
-description: Demonstrates how to use the system_settings plugin.
+description: Demonstrates how to use the system_settings_2 plugin.
 publish_to: 'none'
 
 environment:
@@ -14,7 +14,7 @@ dependencies:
   cupertino_icons: ^1.0.2
 
 dev_dependencies:
-  system_settings:
+  system_settings_2:
     path: ../
 
 # For information on the generic Dart part of this file, see the

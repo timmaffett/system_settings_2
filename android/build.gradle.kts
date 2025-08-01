@@ -1,25 +1,5 @@
-group = "de.florianweinaug.system_settings"
+group = "xyz.hiveright.system_settings_2"
 version = "1.0-SNAPSHOT"
-
-buildscript {
-    extra["kotlin_version"] = "1.9.20"
-    repositories {
-        google()
-        mavenCentral()
-    }
-
-    dependencies {
-        classpath("com.android.tools.build:gradle:8.1.4")
-        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:${extra["kotlin_version"]}")
-    }
-}
-
-allprojects {
-    repositories {
-        google()
-        mavenCentral()
-    }
-}
 
 plugins {
     id("com.android.library")
@@ -27,8 +7,8 @@ plugins {
 }
 
 android {
-    namespace = "de.florianweinaug.system_settings"
     compileSdk = 34
+    namespace = "xyz.hiveright.system_settings_2"
 
     sourceSets {
         getByName("main") {
@@ -56,5 +36,5 @@ android {
 }
 
 dependencies {
-    implementation("org.jetbrains.kotlin:kotlin-stdlib:${extra["kotlin_version"]}")
+    implementation("org.jetbrains.kotlin:kotlin-stdlib:1.9.20")
 }
