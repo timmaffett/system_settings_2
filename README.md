@@ -1,4 +1,4 @@
-# system_settings_plus
+# system_settings_2
 
 ![Build](https://github.com/timmaffett/system_settings_2/workflows/Build/badge.svg)
 [![pub package](https://img.shields.io/pub/v/system_settings_2.svg)](https://pub.dev/packages/system_settings_2)
