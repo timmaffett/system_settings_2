@@ -1,6 +1,5 @@
 # system_settings_2
 
-![Build](https://github.com/timmaffett/system_settings_2/workflows/Build/badge.svg)
 [![pub package](https://img.shields.io/pub/v/system_settings_2.svg)](https://pub.dev/packages/system_settings_2)
 [![license](https://img.shields.io/badge/license-MIT-green)](https://github.com/timmaffett/system_settings_2/blob/master/LICENSE)
 
@@ -46,9 +45,9 @@ If your problem or idea is not addressed yet, [please open a new issue](https://
 
 ## Acknowledgements
 
-This package is based on source code from the package `system_settings 2.1.0` by Florian Weinaug @fweinaug.  It was no longer maintained and no longer worked with modern flutter build environments, so I have updated it to work again.
+This package is based on source code from the package `system_settings 2.1.0` by Florian Weinaug @fweinaug.  It was no longer actively maintained and no longer worked with modern flutter build environments, so I have updated it to work once again.
 
 ## Copyright & License
 
-Code copyright 2020–2025 Tim Maffett, Florian Weinaug.
+Copyright 2020–2025 Tim Maffett, Florian Weinaug.
 Code released under the [MIT license](https://github.com/timmaffett/system_settings_2/blob/master/LICENSE).
