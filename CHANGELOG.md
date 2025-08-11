@@ -1,8 +1,14 @@
+# System Settings Package CHANGELOG
+
 ## 3.0.0
 
 - Updated to modern 3.x Flutter, moved to new repo/package because of lack
-  of maintainance on original system_settings package
+  of maintenance on original system_settings package
   Renamed to system_settings_2 for pub.dev
+  Tested builds/running on ios and android with new build files
+  This version is 100% compatible with system_settings 2.1.0 from which it is
+  based, I changed the version primarily to indicate it's renewed development
+  support.
 
 ## 2.1.0
 
