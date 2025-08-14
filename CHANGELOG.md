@@ -1,3 +1,10 @@
+# System Settings 2 Change Log
+
+## 3.0.0+1
+
+- add documentation to public class/methods and dart format so that package
+  can have max pub.dev points rating.
+
 ## 3.0.0
 
 - Updated to modern 3.x Flutter, moved to new repo/package because of lack
