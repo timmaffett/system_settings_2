@@ -2,7 +2,7 @@ import 'dart:async';
 
 import 'package:flutter/services.dart';
 
-/// SystemSettings is a class that provides static methods to trigger 
+/// SystemSettings is a class that provides static methods to trigger
 /// bringing up the system settings on IOS or Android.
 ///
 /// On Android, this plugin supports various system setting pages as well as
