@@ -1,5 +1,12 @@
 # System Settings 2 Change Log
 
+## 3.0.0+2
+
+- remove trailing space in comment for dart format compliance
+- resolve all flutter analyze issues
+- add some real tests to example
+- fix minor pubspec.yaml flutter analyze complaints
+
 ## 3.0.0+1
 
 - add documentation to public class/methods and dart format so that package

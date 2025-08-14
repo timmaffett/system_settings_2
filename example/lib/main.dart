@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:system_settings_2/system_settings_2.dart';
 
-void main() => runApp(MyApp());
+void main() => runApp(const MyApp());
 
 class MyApp extends StatelessWidget {
+  const MyApp({Key? key}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -13,102 +15,102 @@ class MyApp extends StatelessWidget {
         ),
         body: Center(
           child: ListView(
-            padding: EdgeInsets.all(20.0),
+            padding: const EdgeInsets.all(20.0),
             children: <Widget>[
               ElevatedButton(
-                child: Text('App info'),
+                child: const Text('App info'),
                 onPressed: () => SystemSettings.app(),
               ),
               ElevatedButton(
-                child: Text('App notifications'),
+                child: const Text('App notifications'),
                 onPressed: () => SystemSettings.appNotifications(),
               ),
               ElevatedButton(
-                child: Text('Settings'),
+                child: const Text('Settings'),
                 onPressed: () => SystemSettings.system(),
               ),
               ElevatedButton(
-                child: Text('Location'),
+                child: const Text('Location'),
                 onPressed: () => SystemSettings.location(),
               ),
               ElevatedButton(
-                child: Text('Wi-Fi'),
+                child: const Text('Wi-Fi'),
                 onPressed: () => SystemSettings.wifi(),
               ),
               ElevatedButton(
-                child: Text('Bluetooth'),
+                child: const Text('Bluetooth'),
                 onPressed: () => SystemSettings.bluetooth(),
               ),
               ElevatedButton(
-                child: Text('NFC'),
+                child: const Text('NFC'),
                 onPressed: () => SystemSettings.nfc(),
               ),
               ElevatedButton(
-                child: Text('Power Options'),
+                child: const Text('Power Options'),
                 onPressed: () => SystemSettings.powerOptions(),
               ),
               ElevatedButton(
-                child: Text('Security'),
+                child: const Text('Security'),
                 onPressed: () => SystemSettings.security(),
               ),
               ElevatedButton(
-                child: Text('Display'),
+                child: const Text('Display'),
                 onPressed: () => SystemSettings.display(),
               ),
               ElevatedButton(
-                child: Text('Date & time'),
+                child: const Text('Date & time'),
                 onPressed: () => SystemSettings.date(),
               ),
               ElevatedButton(
-                child: Text('Sound'),
+                child: const Text('Sound'),
                 onPressed: () => SystemSettings.sound(),
               ),
               ElevatedButton(
-                child: Text('Apps'),
+                child: const Text('Apps'),
                 onPressed: () => SystemSettings.apps(),
               ),
               ElevatedButton(
-                child: Text('Network & internet'),
+                child: const Text('Network & internet'),
                 onPressed: () => SystemSettings.wireless(),
               ),
               ElevatedButton(
-                child: Text('Device info'),
+                child: const Text('Device info'),
                 onPressed: () => SystemSettings.deviceInfo(),
               ),
               ElevatedButton(
-                child: Text('Data usage'),
+                child: const Text('Data usage'),
                 onPressed: () => SystemSettings.dataUsage(),
               ),
               ElevatedButton(
-                child: Text('Data roaming'),
+                child: const Text('Data roaming'),
                 onPressed: () => SystemSettings.dataRoaming(),
               ),
               ElevatedButton(
-                child: Text('Locale'),
+                child: const Text('Locale'),
                 onPressed: () => SystemSettings.locale(),
               ),
               ElevatedButton(
-                child: Text('Default apps'),
+                child: const Text('Default apps'),
                 onPressed: () => SystemSettings.defaultApps(),
               ),
               ElevatedButton(
-                child: Text('Airplane/offline mode'),
+                child: const Text('Airplane/offline mode'),
                 onPressed: () => SystemSettings.airplaneMode(),
               ),
               ElevatedButton(
-                child: Text('Privacy'),
+                child: const Text('Privacy'),
                 onPressed: () => SystemSettings.privacy(),
               ),
               ElevatedButton(
-                child: Text('Accessibility'),
+                child: const Text('Accessibility'),
                 onPressed: () => SystemSettings.accessibility(),
               ),
               ElevatedButton(
-                child: Text('Internal storage'),
+                child: const Text('Internal storage'),
                 onPressed: () => SystemSettings.internalStorage(),
               ),
               ElevatedButton(
-                child: Text('Notification policy / DND'),
+                child: const Text('Notification policy / DND'),
                 onPressed: () => SystemSettings.notificationPolicy(),
               ),
             ],

@@ -13,8 +13,7 @@ import 'package:flutter/services.dart';
 /// with the home page. Unfortunately, this is the only way that complies with
 /// Apple's guidelines for the App Store.
 class SystemSettings {
-  static const MethodChannel _channel =
-      const MethodChannel('system_settings_2');
+  static const MethodChannel _channel = MethodChannel('system_settings_2');
 
   /// Opens the device's power options/settings page.
   static Future<void> powerOptions() async {
