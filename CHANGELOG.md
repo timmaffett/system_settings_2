@@ -1,5 +1,9 @@
 # System Settings 2 Change Log
 
+## 3.0.2
+
+- Update build.gradle.kts to use kotlin { compilerOptions {} }
+
 ## 3.0.1
 
 - remove trailing space in comment for dart format compliance
